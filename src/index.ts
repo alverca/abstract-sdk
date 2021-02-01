@@ -1,12 +1,11 @@
 // tslint:disable:max-classes-per-file
 /**
- * TTTS API Service Library for Javascript
+ * Alverca API Service Library for Javascript
  */
-import * as factory from '@tokyotower/factory';
+import * as factory from '@alverca/factory';
 
 import { AuthClient } from './auth/authClient';
 
-import { EventService } from './service/event';
 import { SalesReportService } from './service/salesReport';
 import * as transporters from './transporters';
 
@@ -24,8 +23,4 @@ export namespace service {
      * 売上レポートサービス
      */
     export class SalesReport extends SalesReportService { }
-    /**
-     * イベントサービス
-     */
-    export class Event extends EventService { }
 }

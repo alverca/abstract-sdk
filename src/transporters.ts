@@ -5,7 +5,7 @@
 import * as createDebug from 'debug';
 import * as fetch from 'isomorphic-fetch';
 
-const debug = createDebug('ttts-api-abstract-client:transporters');
+const debug = createDebug('@alverca/abstract-client:transporters');
 // tslint:disable-next-line
 // const pkg = require('../package.json');
 
@@ -26,7 +26,7 @@ export class RequestError extends Error {
     constructor(message?: string) {
         // tslint:disable-next-line:no-single-line-block-comment
         super(message)/* istanbul ignore next */;
-        this.name = 'TTTSRequestError';
+        this.name = 'AlvercaRequestError';
     }
 }
 /**
