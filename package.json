@@ -1,6 +1,6 @@
 {
   "name": "@alverca/abstract-sdk",
-  "version": "9.3.0",
+  "version": "10.0.0",
   "description": "Alverca API abstract client library for Javascript.",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
