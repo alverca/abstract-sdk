@@ -1,4 +1,4 @@
-import * as factory from '@tokyotower/factory';
+import * as factory from '@alverca/factory';
 import { OK } from 'http-status';
 
 import { ISearchResult, Service } from '../service';
