@@ -6,6 +6,7 @@ import * as factory from '@alverca/factory';
 
 import { AuthClient } from './auth/authClient';
 
+import { PaymentReportService } from './service/paymentReports';
 import { SalesReportService } from './service/salesReport';
 import * as transporters from './transporters';
 
@@ -19,6 +20,11 @@ export import transporters = transporters;
 export abstract class Auth extends AuthClient { }
 
 export namespace service {
+    /**
+     * 決済レポートサービス
+     */
+    export class PaymentReport extends PaymentReportService { }
+
     /**
      * 売上レポートサービス
      */
